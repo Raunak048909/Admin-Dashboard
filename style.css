@@ -158,3 +158,9 @@ ul {
     font-weight: 600;
     cursor: pointer;
 }
+#logo i{
+    font-size: 35px;
+}
+#logo h3{
+    align-items: center;
+}
