@@ -12,6 +12,8 @@ body{
     background-color: antiquewhite;
     grid-column: 2 / -1; 
     height: 150px;
+    padding: 15px 50px;
+    box-sizing: border-box;
     
 }
 #sidebar{
@@ -81,13 +83,78 @@ ul {
 #topbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.small-avtar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.big-avtar{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 65%;
+}
+.search i{
+    font-size: 25px;
+}
+.search input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #e5e7eb;
+    outline: none;
+    padding: 0 20px;
+}
+#top-right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+#top-right i{
+    font-size: 25px;
 }
 #profile{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
 }
 #profile-info{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
 }
-
+#profile-info p{
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+#profile-info h3{
+    margin: 0;
+    font-size: 24px;
+}
+.buttons{
+    display: flex;
+    gap: 25px;
+}
+.buttons button{
+    height: 45px;
+    width: 110px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1992d4;
+    color: white;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
