@@ -79,3 +79,11 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+#profile{
+    display: flex;
+    justify-content: space-between;
+}
+#profile-info{
+    display: flex;
+    justify-content: flex-start;
+}
