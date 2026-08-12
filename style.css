@@ -42,7 +42,8 @@ display: grid;
     background-color: white;
     border-radius: 10px;
     border-left: 8px solid goldenrod;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 20px
     
 }
 .card2{
