@@ -72,4 +72,6 @@ ul {
     gap: 50px;
     
 }
-
+.sidebar-section li{
+    padding: 10px;
+}
