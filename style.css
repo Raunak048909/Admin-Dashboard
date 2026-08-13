@@ -61,8 +61,11 @@ display: grid;
     background-color: white;
     border-radius: 10px;
     min-height: 310px;
-    width: 80%;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);;
+    width: 100%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size:12px;
+    padding: 20px;
+    
     
 }
 #anouncement-sections{
