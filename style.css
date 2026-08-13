@@ -9,7 +9,7 @@ body{
     grid-template-rows: auto 1fr;
 }
 #header{
-   background-color: antiquewhite;
+   background-color: white;
     grid-column: 2 / -1; 
     height: 150px;
     padding: 15px 50px;
@@ -22,9 +22,10 @@ body{
     
 }
 #sidebar{
-    background-color: bisque;
+    background-color: #1992d4;
     grid-column: 1;
     grid-row: 1/3;
+    color: white;
 }
 #main-content{
     background-color: gainsboro;
