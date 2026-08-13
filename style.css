@@ -45,8 +45,16 @@ display: grid;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 20px;
     font-size:small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
-    
+}
+.card-logo{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    font-size: medium;
 }
 .card2{
     box-sizing: border-box;
